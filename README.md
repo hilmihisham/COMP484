@@ -1,2 +1,14 @@
-# COMP484
-backup repo for COMP484 Fall 2018 projects
+# lab_instructions.txt
+
+In the text will you will find the hw instructions
+
+ヽ(๏∀๏ )ﾉ
+
+
+
+
+
+## ← intro.html
+
+pretty much the index.html 
+
