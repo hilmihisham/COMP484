@@ -1,7 +1,7 @@
 # Homework 1
 
-## intro.html
-..pretty much the index.html
+## Link to the edited page
+[https://badrolhisham-484hw1.glitch.me/intro.htm](https://badrolhisham-484hw1.glitch.me/intro.htm)
 
 ## Homework 1 instruction
 (as instructed by my professor)
