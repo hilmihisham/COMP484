@@ -1,5 +1,8 @@
 # Homework 2
 
+## Link to the finished page
+[https://badrolhisham-484hw2.glitch.me/intro.html](https://badrolhisham-484hw2.glitch.me/intro.html)
+
 ## Homework 2 instruction
 (as instructed by my professor)
 
