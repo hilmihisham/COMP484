@@ -3,7 +3,7 @@
 ## Homework 2 instruction
 (as instructed by my professor)
 
-Structuring Page Content
+**Structuring Page Content**
 
 For this hw you’ll be planning and implementing a semantic structuring strategy for the entire site based on the work we completed in the lectures. In the steps below I’ll list the tasks you need to perform, as well as the relevant files for each task.
 
@@ -21,7 +21,7 @@ For this hw you’ll be planning and implementing a semantic structuring strateg
    - As you are structuring pages, add ARIA roles to elements when appropriate. 
 					
 ## My solution
-Based on /structure.html page that was already formatted, here's the basic outline for HW-2
+Based on [/structure.html](https://badrolhisham-484hw2.glitch.me/structure.html) page that was already formatted, here's the basic outline that I've got for solving Homework-2
 
 ```
 ...
@@ -59,7 +59,7 @@ Based on /structure.html page that was already formatted, here's the basic outli
 ...
 ```
 
-Also, I've made slight change to the CSS file, just for the cosmetic purposes. I've only change the background color of `<pre>` and `<aside>` so that those sections will hopefully looks a bit better when the two got mixed together, as seen in /syntax.html page.
+Also, I've made slight change to the [CSS](_css/styles.css) file, just for the cosmetic purposes. I've only change the background color of `<pre>` and `<aside>` so that those sections will hopefully looks a bit better when the two got mixed together, as seen in [/syntax.html](https://badrolhisham-484hw2.glitch.me/syntax.html) page.
 
 ```
 ...
