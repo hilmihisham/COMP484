@@ -24,6 +24,7 @@ For this hw you’ll be planning and implementing a semantic structuring strateg
 Based on /structure.html page that was already formatted, here's the basic outline for HW-2
 
 ```
+...
 <body>
   <header role="banner">
     <h1>...</h1>
@@ -55,16 +56,20 @@ Based on /structure.html page that was already formatted, here's the basic outli
     <p>...</p>
   </footer>
 <body>
+...
 ```
 
 Also, I've made slight change to the CSS file, just for the cosmetic purposes. I've only change the background color of `<pre>` and `<aside>` so that those sections will hopefully looks a bit better when the two got mixed together, as seen in /syntax.html page.
 
 ```
+...
 pre {
-  background: #444;
+  ...
+  background: #444;  <- line 48
 }
-
+...
 aside {
-  background: rgb(0, 130, 155);
+  ...
+  background: rgb(0, 130, 155);  <- line 90
 }
 ```
