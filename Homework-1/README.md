@@ -31,16 +31,16 @@ For this challenge you’ll be planning and implementing a formatting strategy f
    - In the list of resources below the advice section, make sure all top-level list items appear in bold.
 
 5. Displaying special characters
-	 - Applies to: reference.htm
-	 - Scroll down and find the table that displays common named character entities.
-	 - Preview the page in a browser, and using the table as a reference, add the appropriate entity into the first table cell to provide an example of that character.
-	 - In the definition for Elements, wrap the word "tags" in quotes using a left and right quote special character.
+   - Applies to: reference.htm
+   - Scroll down and find the table that displays common named character entities.
+   - Preview the page in a browser, and using the table as a reference, add the appropriate entity into the first table cell to provide an example of that character.
+   - In the definition for Elements, wrap the word "tags" in quotes using a left and right quote special character.
    
 6. Inserting Images
-	 - Applies to: Intro.htm
-	 - Examine the existing image at the top of the page. Note the class “flowRight” which is used by CSS to control styling. You’ll learn more about this in the chapter on CSS.
-	 - Scroll down until you locate the paragraph “Shortly After the 1.0 specification…” At the beginning of that paragraph insert an image that:
-          - points to the 200px-W3C_icon.png in the _images directory
-          - uses the alt text “W3C logo”
-          - passes the value of 200 for width, and 136 for height
-          - applies a class of “flowLeft”
+   - Applies to: Intro.htm
+   - Examine the existing image at the top of the page. Note the class “flowRight” which is used by CSS to control styling. You’ll learn more about this in the chapter on CSS.
+   - Scroll down until you locate the paragraph “Shortly After the 1.0 specification…” At the beginning of that paragraph insert an image that:
+     - points to the 200px-W3C_icon.png in the _images directory
+     - uses the alt text “W3C logo”
+     - passes the value of 200 for width, and 136 for height
+     - applies a class of “flowLeft”
