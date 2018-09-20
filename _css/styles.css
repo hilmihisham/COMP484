@@ -45,7 +45,7 @@ pre {
 	color: white;
 	padding: .5em 1em;
 	border-left: 1em solid #A68048;
-	background: #666;
+	background: #444;
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
 	white-space: -pre-wrap;
@@ -87,7 +87,7 @@ header h2 {
 }
 aside {
 	padding: 1em;
-	background:rgb(83, 104, 138);
+	background:rgb(0, 130, 155);
 	color: white;
 	margin-bottom: 1em;
 }
