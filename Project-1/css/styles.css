@@ -91,6 +91,10 @@ h2, h3, h4, h5, h6 { /* bottom line for the paragraph titles */
 	text-align: left;
 	padding: 4px;
 }
+.infotable-header {
+	background-color: darkcyan;
+	color: white
+}
 .textandpix { /* table setting for paragraph with picture on the right */
   width: 100%;
   text-align: left;
