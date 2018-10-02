@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator - ICM</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header role="banner" class="banner">
+    <h1>Iced Caramel Macchiato</h1>
+    <nav role="navigation">
+      <table class="header-links">
+        <tr>
+          <td><a href="home.html" title="Home">Home</a></td>
+          <td><a href="am-album.html" title="am-album">AM Album</a></td>
+          <td><a href="diy-books.html" title="diy-books">DIY Books</a></td>
+          <td><a href="calculator.html" title="calculator">Calculator</a></td>
+        </tr>
+      </table>
+    </nav>
+  </header>
+  <main role="main">
+    <article>
+      <header>
+          <h2>Calculator (Java Program)</h2>
+          <p>A calculator program using Java Swing as the GUI.</p>
+      </header>
+    </article>
+    <section>
+      <h3>Download</h3>
+      <p>Yeay, my first ever Github release is up! (22 Sept 2018 at 3am. What is life, huh? :P)</p>
+      <p>📦 <a href="https://github.com/hilmihisham/Calculator/releases/download/v1.1/Calculator.jar">Download .jar</a></p>
+    </section>
+    <section>
+      <h3>Screenshot</h3>
+      <p><img src="img/calc.png" alt="Calculator screenshot" style="width:70%"><br>Screenshot of the app after Update 2</p>
+    </section>
+    <section>
+      <h3>Does it work?</h3>
+      <p>Oh yes. Addition, subtraction, multiplication, and division works like how you would expect from a simple calculator. It's a calculator after all..</p>
+      <p>Also, the '%' button works as a mod, rather than percentage.</p>
+    </section>
+    <section>
+      <h3>Where's the project came from?</h3>
+      <p>This is actually the first project for my COMP 585 - GUI class. The project was due on 18 Sept 2018 and was already finished by then (for all the required functionality for the project), but I'm still continuing this project after that - adding more functionality, updating the looks, and etc etc mostly for fun.</p>
+    </section>
+    <section>
+      <h3>Project Updates</h3>
+      <p>
+        <ol type="1">
+          <li>Initial commit (18 Sept 2018)</li>
+            <ul style="list-style-type:square">
+              <li>Initial project finished, with all basic functionality implemented.</li>
+            </ul>
+          <li>Update 2 (21 Sept 2018)</li>
+            <ul style="list-style-type:square">
+              <li>Adding color and updating the looks of the calculator.</li>
+              <li>Adding another text box to display the inputted number before the operand.</li>
+              <li>JUnit is still not working, unfortunately.</li>
+            </ul>
+          <li>Update 2.1 (22 Sept 2018)</li>
+            <ul style="list-style-type:square">
+              <li>Refresh the looks of About menu.</li>
+              <li>Built the .jar application for this version.</li>
+            </ul>
+        </ol>
+      </p>
+    </section>
+    <section>
+      <h3>Source code preview from Update 2</h3>
+      <pre><code>
+        // Adding color to all the buttons
+  
+        private void setColor(JButton b) {
+          if ((text.charAt(0) >= '0') && (text.charAt(0) <= '9'))
+            b.setBackground(Color.LIGHT_GRAY);
+          else if (text.charAt(0) == 'C') {
+            float[] colorC = new float[3];
+            Color.RGBtoHSB(145, 30, 50, colorC);
+            b.setBackground(Color.getHSBColor(colorC[0], colorC[1], colorC[2]));
+            b.setForeground(Color.WHITE);
+          }
+          else if (text.charAt(0) == '<')
+            b.setBackground(Color.PINK);
+          else
+            b.setBackground(Color.WHITE);
+        }
+      </code></pre>
+    </section>
+    <section>
+      <h3>More details</h3>
+      <p>Head over to the repository of this project on my Github page (<a href="https://github.com/hilmihisham/Calculator">https://github.com/hilmihisham/Calculator</a>) to see more of the source code, and any other details regarding this project.</p>
+    </section>
+  </main>
+</body>
+</html>
