@@ -1,0 +1,154 @@
+/* Color Palette
+#696969 - dimgray
+#B0C4DE - lightsteelblue
+#F5FFFA - mintcream
+#FFE4B5 - moccasin
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    /* border box fix */
+    box-sizing: border-box;
+}
+*, *:before, *:after { /* target and force all elements to inherit HTML */
+    box-sizing: inherit;
+}
+body {
+    background: lightsteelblue;
+    margin: 0%;
+    font-size: 110%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bitter', serif;
+}
+p, li, a, .contact-info {
+    font-family: 'Ubuntu', sans-serif;
+}
+.content-wrap {
+    max-width: 950px; 
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Navigation bar
+------------------------------------*/
+nav {
+    background: mintcream;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar {
+    text-align: center;
+    position: fixed; /* set navbar to fixed position */
+    top: 0; /* position the navbar at the top of the page */
+    width: 100%; 
+}
+.navbar a {
+    padding: 10px;
+    display: inline-block;
+    width: 15%;
+    text-decoration: none; /* remove underline */
+    color: dimgray; /* force link color to dimgray */
+    font-weight: bold;
+}
+
+/* Header 
+------------------------------------*/
+header {
+    padding-top: 60px; /* padding to give room to navbar */
+    height: 100%;
+    background: #161415 url(https://cdn.glitch.com/c3bbe21b-154b-41de-85f5-5bd6a58d355a%2Fheader-background.jpg?1540940576910) no-repeat top center;
+    width: 100%;
+    background-size: cover !important;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #161415; /* X-offset, Y-offset, blur, color */
+}
+header h1 {
+    font-size: 2.5em;
+    margin-top: 55%;
+    margin-bottom: 5px;
+}
+header h2 {
+    margin-top: 5px;
+    margin-bottom: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500; 
+}
+.intro {
+    padding-top: 60px; /* padding to give room to navbar */
+    background: linear-gradient(rgba(0, 67, 105, 0.5), rgba(0, 67, 105, 0.5)), url(https://cdn.glitch.com/c3bbe21b-154b-41de-85f5-5bd6a58d355a%2Fabout-bg.jpg?1540940576939) no-repeat;
+    color: white;
+    padding-bottom: 25px; /* balancing the top and bottom spaces */
+}
+.profile-img { /* profile picture */ 
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    margin-top: 1em; /* make the top in the same line as the paragraph */
+}
+/* Columns
+-----------------------------------*/
+.column-narrow {
+    width: 30%; 
+    float: left; 
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+}
+.not-top-column {
+    /* create a line to separate every details row */
+    border-top: 1px dotted orange;
+}
+
+/* Section Headers
+------------------------------------*/
+h2.sectiontext {
+    text-align: center;
+    margin-top: 0%; 
+    margin-bottom: 0%;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed orangered;
+}
+
+/* Skills
+------------------------------------*/
+.skillsection {
+    padding-top: 60px; /* padding to give room to navbar */
+    background: moccasin;
+}
+
+/* Work Experience
+------------------------------------*/
+.worksection {
+    padding-top: 60px; /* padding to give room to navbar */
+    background: lightsteelblue;
+    padding-bottom: 25px; /* balancing the top and bottom spaces */
+}
+
+/* Education
+------------------------------------*/
+.educationsection {
+    padding-top: 60px; /* padding to give room to navbar */
+    background: moccasin;
+    padding-bottom: 25px; /* balancing the top and bottom spaces */
+}
+
+/* Footer
+------------------------------------*/
+footer {
+    background: mintcream;
+    padding: 10px;
+    text-align: center;
+}
+.contact-info a {
+    padding: 10px; 
+    display: inline-block;
+    text-decoration: none;
+}
