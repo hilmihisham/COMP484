@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Tera-Pet</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Better than your Giga-Pet, this is my Tera-Pet</h1>
+    </header>
+
+    <main>
+      <section class="pet-image-container">
+         <!-- Replace pet image with your own pet image -->
+        <img class="pet-image" src="https://cdn.glitch.com/78412bff-f64b-4864-ac93-b9dd793e8ffc%2Fagumon.jpg?1542323692521">
+      </section>
+      <section class="dashboard">
+        <div>Name: <strong><span class="name"></span></strong></div>
+        <div>Weight: <strong><span class="weight"></span> pounds</strong></div>
+        <div>Happiness: <strong><span class="happiness"></span> tail wags (per min)</strong></div>
+        <div>Attacks available: <strong><span class="attacks"></span></strong></div>
+        <div><i>(Attack will decrease <span class="name"></span>'s happiness, and weight by <strong>attack's value x 2</strong>)</i></div>
+        <div class="button-container">
+          <button class="treat-button">
+            Treat
+          </button>
+          <button class="play-button">
+            Play
+          </button>
+          <button class="exercise-button">
+            Exercise
+          </button>
+          <button class="attack-button">
+            Attack
+          </button>
+          <input class="attack-choice" type="number" name="quantity" min="1" max="5" value="1">
+        </div>
+      </section>
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+  </body>
+</html>
