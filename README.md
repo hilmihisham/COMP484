@@ -1,5 +1,5 @@
-# COMP484
-backup repo for COMP484 Fall 2018 projects
+# COMP484 - Web Engineering I
+Repository for all the homeworks and projects done in my CSUN COMP484 class. These were done in HTML, CSS, and JavaScript. Full webpage (hosted on Glitch) for every projects are linked below.
 
 ## Homework 1
 ### Basic HTML
